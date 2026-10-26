@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Basic";
+    src: url(../font/Basic-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Josefin";
+    src: url(../font/JosefinSans-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: Basic;
+}
+
+.logotipo{
+    width: 75px;
+}
+
+#font{
+    font-family: "Josefin";
+    text-align: center;
+}
+
+#mapa{
+    height: 350px;
+}
+
+#menu_contact{
+    background: url(../imagenes/descarga\ \(1\).jfif) no-repeat fixed;
+    background-size: cover;
+}
+ 
+    #glass{
+        width: 50%;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255. 0.3);
+        border: 1px solid #fff;
+        padding: 25px;
+        backdrop-filter: blur(20px);
+    }
+ 
+        input{
+            width: 90%;
+            padding: 12px;
+            margin: 10px;
+            font-size: 1.2rem;
+            color: #cdbaff;
+            border: none;
+        }
+ 
+        input:focus{
+            outline: 0px;
+            background-color: #bbffcc;
+            color: #000000;
+        }
+ 
+        input[type="submit"]{
+            font-family: Bubbler, cursive;
+            color: #0e0000;
+            background-color: #b7f8ef;
+            letter-spacing: 3px;
+            width: 130px;
+        }
+ 
+        input[type="submit"]:hover{
+            background-color: #9a84fc;
+            color: #bea3f0;
+            cursor: pointer;
+            font-family: "Josefin";
+            text-align: center;
+        }
